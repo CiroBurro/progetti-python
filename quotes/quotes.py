@@ -20,7 +20,7 @@ tradotta = traduci_citazione(random_quote)
 print(tradotta)
 
 account_sid = "ACf0a79eeb7e2a133f483c3e0bed5514e5"
-auth_token = "d8c717c37672ecf187741f8e87083679"
+auth_token = "#inserisci il tuo token"
 client = Client(account_sid, auth_token)
 
 message = client.messages.create(
